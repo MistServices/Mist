@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mist - [name]</title>
+        <link rel="stylesheet" type="text/css" href="profile.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+        <script src="control.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo-square">
+                <img src="../mist-logo.png">
+            </div>
+            <i id="square" class="material-icons">home</i>
+            <i id="square" class="material-icons">library_books</i>
+            <i id="square" class="material-icons">date_range</i>
+            <i id="square" class="material-icons" onclick="openMessageModal( );">message</i>
+            <div class="account-options">
+                <img src="user-default.png" class="user" width="40px">
+            </div>
+        </div>
+        <div id="message-modal" class="message-modal">
+            <div class="message-modal-content">
+                rwer
+            </div>
+        </div>
+        <div class="content">
+            <div class="head">
+                <div class="head-text">
+                    Welcome, Alex
+                </div>
+                <div class="class-selector">
+                    Class: <span class="selector-second">Science</span><span id="dropdown-icon" class="material-icons">arrow_drop_down</span>
+                </div>
+            </div>
+        </div>
+        <canvas id="grade-canvas"></canvas>
+    </body>
+</html>

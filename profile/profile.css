@@ -1,0 +1,196 @@
+*
+{
+    padding: 0px;
+    
+    margin: 0px;
+}
+
+html
+{
+    background-color: #29292D;
+}
+
+.navbar
+{
+    color: white;
+    
+    width: 100px;
+    
+    position: fixed;
+    
+    background-color: #2C2C31;
+    
+    box-shadow: 5px 0 5px -2px #252629;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    height: 100%;
+}
+
+.logo-square
+{
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    background-color: #36B8B7;
+}
+
+#square
+{   
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+    
+    cursor: pointer;
+    
+    transition: color .2s ease-in;
+}
+
+#square:hover
+{
+    color: rgba( 255, 255, 255, 0.7 );
+}
+
+.account-options
+{
+    margin-top: auto;
+    
+    padding-top: 25px;
+    
+    padding-bottom: 25px;
+    
+    width: 100%;
+    
+    text-align: center;
+
+    background-color: #303037;
+}
+
+.user
+{
+    border: 1px solid #303037;
+    
+    border-radius: 30px;
+}
+
+.content
+{
+    margin-left: 100px;
+}
+
+.head
+{
+    color: white;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    margin-left: 5%;
+    
+    padding-top: 2%;
+    
+    font-size: 210%;
+    
+    display: flex;
+    
+    align-items: center;
+}
+
+.head-text
+{
+    font-weight: 100;
+}
+
+.class-selector
+{
+    font-size: 45%;
+    
+    margin-left: 5%;
+    
+    border: 1px solid #3B3A41;
+    
+    padding: 1%;
+    
+    border-radius: 10px;
+    
+    color: #70747D;
+    
+    display: flex;
+    
+    align-items: center;
+}
+
+.selector-second
+{
+    color: white;
+    
+    cursor: pointer;
+    
+    padding-left: 4px;
+}
+
+.message-modal-content
+{   
+    background-color: white;
+    
+    margin-left: 35%;
+    
+    margin-right: 35%;
+    
+    margin-top: 7%;
+    
+    animation-name: animateIn;
+    
+    animation-duration: 0.4s;
+}
+
+.message-modal
+{    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    display: none;
+    
+    position: fixed;
+    
+    animation-name: modalColor;
+    
+    animation-duration: 0.4s;
+}
+
+#dropdown-icon
+{
+    font-size: 110%;
+    
+    margin-left: 7%;
+}
+
+@keyframes modalColor
+{
+    from {background-color: rgba(0, 0, 0, 0.0);}
+    to {background-color: rgba(0, 0, 0, 0.5);}
+}
+
+@keyframes animateIn {
+    from {margin-top: 6%;opacity:0}
+    to {margin-top: 7%;opacity:1}
+}
+
+@keyframes animateOut {
+    from {opacity:1}
+    to {opacity:0}
+}
+
+#grade-canvas
+{    
+    display: block;
+    
+    margin-top: 3%;
+}
